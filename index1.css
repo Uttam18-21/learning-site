@@ -1,0 +1,452 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#container{
+	width: 100%;
+}
+#header{
+	width: 100%
+	border: 2px solid black;
+	margin-top: 5px;
+	
+
+}
+#left{
+	float: left;
+
+}
+#font{
+     font-size: 45px;
+     color: grey;
+     padding: 3px;
+    	margin: 2px;
+}
+#font :hover{
+	color: green;
+	cursor: pointer;
+}
+#com
+{
+	font-size: 45px;
+	color: green;
+	padding: 3px;
+	margin: 2px;
+		cursor: pointer;
+}
+#right{
+	float: right;
+	top:1rem;
+
+}
+.button{
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 20px;
+	margin: 2px;
+	padding: 2px;
+	margin-right: 5px;
+}
+.left{
+	font-size: 20px;
+	color: grey;
+	padding: 3px;
+	margin: 1px;
+	top: 5rem;
+}
+.navbar{
+	width: 100%;
+     background-color: grey;
+    height: 3rem;
+     position: sticky;
+      top: 0rem;
+     padding: 0.20rem;
+     	display: flex;
+     	z-index: 1;
+}
+.navcontent{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 0.07rem;
+	margin: 0.3rem;
+
+
+}
+.navbar a:hover{
+	color: white;
+	background: black;
+}
+
+.icon{
+	padding: 0.3rem;
+    color: white;
+}
+
+.sidemenu{
+	overflow: auto;
+	width: 33vh;
+	height: 85vh;
+	background: white;
+	position: fixed;
+	text-align: center;
+	
+}
+.sidemenu a{
+	color:black;
+	text-decoration: none;
+	margin: 0rem 1rem;
+}
+.sidemenu a:hover{
+	background:grey;
+	cursor: pointer;
+}
+.body{
+	width: 65%;
+	height: 30vh;
+            margin: 10px;
+    position: relative;
+    margin: 0rem 15rem;
+}
+.body p{
+	color: black;
+	font-size: 50px;
+}
+.btn{
+	background-color: green;
+	color: white;
+	padding: 2px;
+	margin: 2px;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: -25px;
+
+}
+.btn1{
+	background-color: green;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 2px;
+	margin: 2px;
+	float: right;
+	margin-top: -25px;
+
+}
+.body1{
+       width: 65%;
+	height: 30vh;
+            margin: 10px;
+    position: relative;
+    margin: 0rem 15rem;
+    background-color: lightgrey;
+}
+.html-logo{
+	width: 10rem;
+	height: 28vh;
+	float: left;
+}
+.body1 p{
+	color: black;
+	font-size: 20px;
+	padding: 8px;
+	margin: 5px;
+}
+.btn2{
+	background-color: lightgreen;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 5px;
+
+}
+.body2{
+	  width: 65%;
+	 
+	    margin: 0rem 15rem;
+}
+.excode{
+	  width: 65%;
+      margin: 0rem 15rem;
+
+}
+.excode p{
+	margin: 5px;
+	padding: 4px;
+
+}
+.body3{
+	    margin: 0rem 15rem;
+	    font-size: 20px;
+	    background-color: white;
+}
+.body3 p{
+	font-size: 20px;
+}
+.body3 a{
+	color: black;
+}
+.rightsidebox{
+	width: 30vh;
+	height: 65vh;
+	background-color: lightgrey;
+	float: right;
+	margin: -9rem 0rem 1rem;
+}
+.rightsidebox h2{
+              background-color: darkgrey;
+              margin: 0px;
+              text-align: center;
+              padding: 5px;
+              margin: 3px;
+
+}
+.rightsidebox a{
+    text-align: center;
+	margin-left: 30px;
+	font-size:20px;
+	color: black;
+	display: flex;
+	text-decoration: none;
+}
+.rightsidebox a:hover{
+	cursor: pointer;
+	background-color: grey;
+
+}
+.body4{
+	 margin: 8rem 15rem;
+	 
+	 width: 65%;
+	 height: 40px;
+}
+.body5{
+	 margin: 0rem 15rem;
+	 border: solid black
+	 width :65%;
+	 height: 25rem;
+	 background-color:grey;
+
+}
+.body5 p {
+	font-size: 40px;
+	margin-top: 10px;
+	color: white;
+
+}
+.inner{
+	width: 93%;
+	height: 18rem;
+	 margin: -2rem 2rem;
+	 background-color: white;
+
+}
+.inner p{
+	color: black;
+	font-size: 20px;
+	
+
+}
+.input{
+	background-color: white;
+     width: 33px;
+     border: none;
+}
+.bg{
+	background-color: lightgrey;
+	margin-left: 5px;
+}
+.btn3{
+	background-color: green;
+	padding: 5px;
+	margin:2px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+}
+.btn3 :hover{
+	background-color: lightgreen;
+}
+.body5 a{
+	color: black;
+
+}
+.body a:hover{
+	color: green;
+}
+.rightsidebox1{
+	width: 30vh;
+	height: 50vh;
+	background-color: lightgrey;
+	float: right;
+	margin: -22rem 0rem;
+}
+.rightsidebox1 h2{
+	background-color: grey;
+}
+.content{
+	display: flex;
+	border: 1px solid white;
+	color: black;
+	padding: 5px;
+	margin: 2px;
+	cursor: pointer;
+}
+.content :hover{
+	background-color: white;
+
+}
+.body6{
+	 margin: 0rem 15rem;
+	 width: 65%;
+
+}
+.body6 p{
+
+	font-size: 30px;
+}
+.btn4{
+	background-color: navy;
+	padding: 3px;
+	margin: 2px;
+	font-size: 20px;
+	color: white;
+
+}
+.element{
+	 text-decoration: none;
+	 padding: 5px;
+	 margin: 5px;
+	 color: grey;
+}
+.element li{
+	background-color: lightgrey;
+	padding: 15px;
+	margin:5px;
+	display: inline-block;
+	font-size: 20px;
+    width: 28%;
+    
+    text-align: center;
+    align-content: center;
+}
+.element li:hover{
+	cursor: pointer;
+	background-color: grey;
+	color: white;
+}
+
+.body7{
+	width: 95%;
+      margin: 0rem 1rem;
+}
+.text{
+	float: right;
+}
+.w3-logo{
+	float: left;
+}
+.text{
+	margin-left: 20rem;
+	margin-top: -6rem;
+}
+.btn5{
+	background-color: green;
+	color: white;
+	margin: 3rem -2rem;
+	font-size: 20px;
+	padding: 5px;
+}
+.btn5 :hover{
+	background-color: lightgreen;
+	cursor: pointer;
+}
+.body6 ul li{
+	list-style-type: none;
+	padding: 5px;
+	margin: 5px;
+}
+.body6 ul li a:hover{
+	color: green;
+	cursor: pointer;
+}
+.footer{
+	width: 90%;
+	margin-left: 15rem;
+
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 0rem 10rem;
+    margin-left: 10px;
+    background-color: lightgrey;
+}
+.footer a :hover{
+	background-color: grey;
+	cursor: pointer;
+}
+.footer1{
+	margin: 0rem 15rem;
+	width: 80%;
+}
+.box{
+	width: 35vh;
+	height: 60vh;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	
+}
+.box p{
+	font-size: 20px;
+	text-align: center;
+}
+.box a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	padding: 3px;
+	display: flex;
+	align-content: center;
+	margin-left: 2.3rem;
+}
+.box a:hover{
+	color: green;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.btn6{
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+}
+.btn6:hover{
+	background-color: lightgrey;
+	cursor: pointer;
+}
+.lcontent{
+	color: grey;
+	font-size: 13px;
+	text-align: center;
+}
+.Copyright{
+	color: grey;
+	text-align: center;
+
+}
+.Copyright a{
+	color: grey;
+}
+.Copyright a:hover{
+	color: green;
+}
